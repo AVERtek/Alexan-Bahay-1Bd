@@ -1,4 +1,4 @@
-### 759sqft; 1-BDRM; 1-BATH<!-- Loads <model-viewer> for old browsers like IE11: -->
+### 759 sqft; 1 BDRM; 1 BATH<!-- Loads <model-viewer> for old browsers like IE11: -->
   <script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
   </script>
 
