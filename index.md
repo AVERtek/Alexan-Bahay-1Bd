@@ -1,5 +1,5 @@
 ### MODELS AVAILABLE: STUDIO; 1 BDRM; 2 BDRM
-### TOUR NOW a 759 sqft; 1 BDRM; 1 BATH <!-- Loads <model-viewer> for old browsers like IE11: -->
+### 3D/4D tour below: 759 sqft, 1 bdrm, 1 bath <!-- Loads <model-viewer> for old browsers like IE11: -->
   <script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
   </script>
 
