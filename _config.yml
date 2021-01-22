@@ -2,11 +2,15 @@
 logo1: "images/BAHAY-LOGO-leaf-black.png? raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <br><br> 
+  <style>
+  body {
+	color: #000000;  
   <b>ON COMPUTER - View 3D Image Only:</b> <br>
     Use Pointer to rotate, spin; Use zoom to scale
   <br><br> 
   <b>ON MOBILE - View in Augmented Reality (AR):</b> <br>
-  <b><u>STEP 1</u></b>- Scroll down press AR button, place image in open space, anchor on surface, scale & tour apartment  
+  <b><u>STEP 1</u></b>- Scroll down press AR button, place image in open space, anchor on surface, scale & tour apartment
+  }
   <br><br>
   <a href="https://avertek.net/xr-now-apartments"><b><u>STEP 2</u></b>- View Actual Apartment Images</a> 
   <br><br>
