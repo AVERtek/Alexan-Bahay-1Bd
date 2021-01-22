@@ -1,6 +1,6 @@
-## Discover 759 sqft, 1 bdrm, 1 bath in 3D & AR <!-- Loads <model-viewer> for old browsers like IE11: -->
-### after 4D exploration in AR reveal possibilities in steps 2-4 
-#### ALEXAN BAHAY MODELS AVAILABLE: STUDIO; 1 & 2 BDRM
+## Discover 4D Augmented Reality Tour on Smart Phone <!-- Loads <model-viewer> for old browsers like IE11: -->
+### explore 759sf; 1bd; 1ba; Affordable Luxury Living
+### find the Secret Message and follow the Steps to Win
 <script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
   </script>
 
