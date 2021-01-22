@@ -4,7 +4,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br> 
   <style>
   body {
-	color: #000000;  
+    color: blk;  
   <b>ON COMPUTER - View 3D Image Only:</b> <br>
     Use Pointer to rotate, spin; Use zoom to scale
   <br><br> 
