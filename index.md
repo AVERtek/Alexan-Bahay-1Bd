@@ -1,7 +1,7 @@
-## MODELS AVAILABLE: STUDIO; 1 & 2 BDRM
-### tour below 3D & AR 759 sqft, 1 bdrm, 1 bath
-#### after your tour be sure to check out steps 2-4 <!-- Loads <model-viewer> for old browsers like IE11: -->
-  <script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+## Discover a 3D & AR 759 sqft, 1 bdrm, 1 bath tour below... <!-- Loads <model-viewer> for old browsers like IE11: -->
+### after an exploration in 4D learn more in steps 2-4. 
+#### MODELS AVAILABLE: STUDIO; 1 & 2 BDRM
+<script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
   </script>
 
   <!-- The following libraries and polyfills are recommended to maximize browser support -->  
