@@ -1,6 +1,6 @@
-## Discover a 3D & AR 759 sqft, 1 bdrm, 1 bath tour below... <!-- Loads <model-viewer> for old browsers like IE11: -->
-### after an exploration in 4D learn more in steps 2-4. 
-#### MODELS AVAILABLE: STUDIO; 1 & 2 BDRM
+## Discover 3D & AR 759 sqft, 1 bdrm, 1 bath below <!-- Loads <model-viewer> for old browsers like IE11: -->
+### after an exploration in 4D learn more in steps 2-4 
+#### ALEXAN BAHAY MODELS AVAILABLE: STUDIO; 1 & 2 BDRM
 <script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
   </script>
 
