@@ -24,10 +24,8 @@
           <img src="{{site.logo2 | relative_url}}" alt="Logo" />
         {% endif %}
        
-        <p>{{ site.description | default: site.github.project_tagline }}</p>
-        <img src="{{site.logo1 | relative_url}}" alt="Logo" />
+        <p>{{ site.description | default: site.github.project_tagline }}<img src="{{site.logo1 | relative_url}}" alt="Logo" /></p>
 
-        
         {% if site.show_downloads %}
         <ul class="downloads">          
           <li><a href="{{ site.github.zip_url }}">Download <strong>ZIP File</strong></a></li>
