@@ -1,6 +1,3 @@
-## Discover AR for a 4D Walking Tour on Mobile <!-- Loads <model-viewer> for old browsers like IE11: -->
-### explore 759sf; 1bd; 1ba; Affordable Luxury Living
-### find the Secret Message and follow the Steps to Win
 <script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
   </script>
 
