@@ -1,18 +1,17 @@
 #title: AVERtek # your name photo (or website title) here
-logo1: "images/BAHAY-LOGO-leaf-black.png? raw=true" # your photo (or logo) here
+logo1: "images/BAHAY-LOGO-leaf-green-gold.png? raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <br><br> 
-  <b>ON COMPUTER - View 3D Image Only:</b> <br>
-    Use Pointer to rotate, spin; Use zoom to scale
+  <b><u>DISCOVER:</u> WHY ALEXAN BAHAY MEANS HOME NOW...
   <br><br> 
-  <b>ON MOBILE - View in Augmented Reality (AR):</b> <br>
-  <b><u>STEP 1</u></b>- Scroll down press AR button, place image in open space, anchor on surface, scale & tour apartment
+  <b><u>ENVISION:</u> 3D Apartment Home from your Computer, Tablet, or Mobile Device
+    </b>Use pointer to rotate & spin; zoom to scale model
+  <b><u>EXPERIENCE:</u> Augmented Reality (mobile or tablet only)
+  </b>- Scroll down press AR button, place image in open space, anchor on surface, scale & tour apartment
   <br><br>
-  <a href="https://avertek.net/xr-now-apartments"><b><u>STEP 2</u></b>- View Actual Apartment Images</a> 
+  <b><u>VIEW:</u></u></b><a href="https://avertek.net/narrative"</b>- See all that awaits you at Alexan Bahay</a> 
   <br><br>
-  <a href="https://avertek.net/narrative"><b><u>STEP 3</u></b>- Take a Video Tour/Testimonials</a>
-  <br><br>
-  <a href="https://avertek.net/contact-us"><b><u>STEP 4</u></b>- Contact Us for a Personal Tour; Receive a Free Gift</a> 
+  <b><u>EXPLORE:</u></u></b><a href="https://avertek.net/narrative"</b>- Alexan Bahay for yourself with a self-guided or in-person private tour & receive a special gift</a> 
   <br><br>
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
