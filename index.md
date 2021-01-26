@@ -18,7 +18,7 @@
   <!-- OPTIONAL: Include prismatic.js for Magic Leap support -->
   <!--<script src="https://unpkg.com/@magicleap/prismatic/prismatic.min.js"></script>-->
 
-<model-viewer camera-controls camera-orbit="90deg 55deg 10m" id="reveal" loading="eager" src="Models/Bahay_1 bed Apartment.glb" ar="" ar-modes="scene-viewer webxr quick-look" ios-src="usdz_bahay_1_bed_apartment___1611008838364.usdz" alt="Alexan Bahay" auto-rotate-delay="0" ar-scale="auto" camera-controls="" style="width: 95%; height: 500px" exposure="0.5"> <button slot="ar-button" style="background-color: white; border-radius: 8px; border: 1 px solid black; position: absolute; top: 20px; right: 20px; ">
+<model-viewer camera-controls camera-orbit="0deg 55deg 10m" id="reveal" loading="eager" src="Models/Bahay_1 bed Apartment.glb" ar="" ar-modes="scene-viewer webxr quick-look" ios-src="usdz_bahay_1_bed_apartment___1611008838364.usdz" alt="Alexan Bahay" auto-rotate-delay="0" ar-scale="auto" camera-controls="" style="width: 95%; height: 500px" exposure="0.5"> <button slot="ar-button" style="background-color: white; border-radius: 8px; border: 1 px solid black; position: absolute; top: 20px; right: 20px; ">
       👋 AR Click Here
   </button>
 </model-viewer>
