@@ -1,8 +1,7 @@
-### <a href="https://avertek.github.io/AlexanBahay-WalkingTour/" onclick="getOutboundLink('https://avertek.github.io/AlexanBahay-WalkingTour/'); return false;">Immersive 3D Walking Tour on Computer</a> <!-- Loads <model-viewer> for old browsers like IE11: -->
-### Augmented Reality 4D Tour on Mobile <!-- Loads <model-viewer> for old browsers like IE11: -->
+## <a href="https://avertek.github.io/AlexanBahay-WalkingTour/" onclick="getOutboundLink('https://avertek.github.io/AlexanBahay-WalkingTour/'); return false;">Computer: Immersive 3D Walking Tour</a> <!-- Loads <model-viewer> for old browsers like IE11: -->
+## Mobile: 4D Augmented Reality Tour <!-- Loads <model-viewer> for old browsers like IE11: -->
 <script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
   </script>
-
   <!-- The following libraries and polyfills are recommended to maximize browser support -->  
   <!-- REQUIRED: Web Components polyfill to support Edge and Firefox < 63 -->
   <script src="https://unpkg.com/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
@@ -18,7 +17,6 @@
 
   <!-- OPTIONAL: Include prismatic.js for Magic Leap support -->
   <!--<script src="https://unpkg.com/@magicleap/prismatic/prismatic.min.js"></script>-->
-
 <model-viewer camera-controls camera-orbit="0deg 45deg 10m" id="reveal" loading="eager" src="Models/Bahay_1 bed Apartment_6_For Collider.glb" ar="" ar-modes="scene-viewer webxr quick-look" ios-src="usdz_bahay_1_bed_apartment_6_for_collider___1615566350004.usdz" alt="Alexan Bahay" auto-rotate-delay="0" ar-scale="auto" camera-controls="" style="width: 100%; height: 600px" exposure="0.5"> <button slot="ar-button" style="background-color: white; border-radius: 8px; border: 1 px solid black; position: absolute; top: 20px; right: 20px; ">
       👋 AR Click Here
   </button>
