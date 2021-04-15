@@ -2,16 +2,16 @@
 logo1: "images/BAHAY-LOGO-leaf-green-gold.png? raw=true" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   <br><br> 
-  <h1><b>ALEXAN BAHAY MEANS HOME</h1></b>
+  <h2><b>ALEXAN BAHAY MEANS HOME</h2></b>
   <h2><b>Engage ALL 4 Experiences</h2></b>
   <br><br>
-  <b>ENVISION: 3D APARTMENT MODEL </b>  Tour 3D Model on Computer
+  <h3><b>ENVISION: 3D APARTMENT MODEL </h3></b>
   <br><br> 
-  <b>EXPLORE: 4D AUGMENTED REALITY</b>  AR Walking Tour on Mobile Device
+  <h3><b>EXPLORE: MOBILE 4D AUGMENTED REALITY</h3></b>
   <br><br>
-  <b>VIEW:</b><a href="https://alexanbahay.com/gallery/video/?utm_source=AVERtek&utm_medium=AR" onclick="getOutboundLink('https://alexanbahay.com/gallery/video/?utm_source=AVERtek&utm_medium=AR'); return false;"</b><b> LUXURY LIVING</b></a> 
+  <h3><a href="https://alexanbahay.com/gallery/video/?utm_source=AVERtek&utm_medium=AR" onclick="getOutboundLink('https://alexanbahay.com/gallery/video/?utm_source=AVERtek&utm_medium=AR'); return false;"<b> VIEW LUXURY LIVING</h3></b></a> 
   <br><br>
-  <b>DISCOVER:</b><a href="https://alexanbahay.com/special/?utm_source=AVERtek&utm_medium=AR" onclick="getOutboundLink('https://alexanbahay.com/special/?utm_source=AVERtek&utm_medium=AR'); return false;"</b> <b> VIP TOUR & FREE GIFT</a> 
+  <h3><a href="https://alexanbahay.com/special/?utm_source=AVERtek&utm_medium=AR" onclick="getOutboundLink('https://alexanbahay.com/special/?utm_source=AVERtek&utm_medium=AR'); return false;"<b> DISCOVER VIP TOUR; FREE GIFT</h3></b></a> 
   <br><br>
 theme: jekyll-theme-minimal
 # Google Analytics
