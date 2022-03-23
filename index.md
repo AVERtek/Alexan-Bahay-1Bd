@@ -1,7 +1,11 @@
-<h2 style="text-align: center;" markdown="1"><a href="https://avertek.github.io/AlexanBahay-WalkingTour/" onclick="getOutboundLink('https://avertek.github.io/AlexanBahay-WalkingTour/'); return false;"> Computer: Immersive 3D Walking Tour</a></h2> <!-- Loads <model-viewer> for old browsers like IE11: -->
-<h2 style="text-align: center;" markdown="1"> Mobile: 4D Augmented Reality Tour</h2> <!-- Loads <model-viewer> for old browsers like IE11: -->
-<script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer-legacy.js">
+# DANCE THE "7th INNING STRETCH"! <!-- Loads <model-viewer> for old browsers like IE11: -->
+<p align="center">
+  <img src="images/Dodgers 1.jfif" width=200>
+</p>
+<h2 style="text-align: center;" markdown="1"> On Mobile: Press "AR" Button; To Video Press/Hold Camera Button; Share Socially!</h2> <!-- Loads <model-viewer> for old browsers like IE11: -->
+<script nomodule="" src="https://unpkg.com/@google/model-viewer/dist/model-viewer.min.js">
   </script>
+
   <!-- The following libraries and polyfills are recommended to maximize browser support -->  
   <!-- REQUIRED: Web Components polyfill to support Edge and Firefox < 63 -->
   <script src="https://unpkg.com/@webcomponents/webcomponentsjs/webcomponents-loader.js"></script>
@@ -17,12 +21,94 @@
 
   <!-- OPTIONAL: Include prismatic.js for Magic Leap support -->
   <!--<script src="https://unpkg.com/@magicleap/prismatic/prismatic.min.js"></script>-->
-<model-viewer camera-controls camera-orbit="0deg 45deg 10m" id="reveal" loading="eager" src="Models/Bahay_1 bed Apartment_6_For Collider.glb" ar="" ar-modes="scene-viewer webxr quick-look" ios-src="usdz_bahay_1_bed_apartment_6_for_collider___1615566350004.usdz" alt="Alexan Bahay" auto-rotate-delay="0" ar-scale="auto" camera-controls="" style="width: 100%; height: 600px" exposure="0.5"> <button slot="ar-button" style="background-color: white; border-radius: 8px; border: 1 px solid black; position: absolute; top: 20px; right: 20px; ">
+  
+  
+  <script>
+      function Sync(selector, audioSelector) {
+        var modelViewer = document.querySelector(selector);
+        var sound = document.querySelector(audioSelector);
+        var playRequest = document.querySelector("#overlay");
+
+   sound.addEventListener("timeupdate", () => {
+          modelViewer.currentTime = sound.currentTime;
+          console.log("modelViewer time: " + modelViewer.currentTime);
+        });
+
+   sound.addEventListener("pause", () => {
+          modelViewer.pause();
+        });
+
+   sound.addEventListener("play", () => {
+          modelViewer.play();
+
+   playRequest.classList.add("hide");
+        });
+
+   document.addEventListener("visibilitychange", () => {
+          if (document.visibilityState !== "visible") {
+            sound.pause();
+          }
+        });
+
+   var promise = sound.play();
+        if (promise !== undefined) {
+          promise
+            .then(_ => {
+              console.log("Autoplay has worked");
+              playRequest.classList.add("hide");
+            })
+            .catch(error => {
+              // Show a "Play" button so that user can start playback.
+              console.log("Autoplay has not worked");
+
+   // show the modal dialogue to play this
+   playRequest.classList.remove("hide");
+            });
+        }
+
+   }
+
+   function playNow() {
+        var playRequest = document.querySelector("#overlay");
+        playRequest.classList.add("hide");
+
+   var sound = document.querySelector("#sound");
+        sound.play();
+      }
+
+   function jumpTo(time) {
+        var sound = document.querySelector("#sound");
+        sound.currentTime = time;
+      }
+   </script>
+
+
+<model-viewer src="Models/DodgerDance_1min14sec_01.glb?sound=Sound/Dodger Dance.mp3" camera-controls camera-orbit="0deg 90deg 65%" autoplay animation-name="" id="reveal" id="model-viewer" loading="eager" ar ar-modes="scene-viewer webxr quick-look" ios-src="Models/DodgerGuy.reality" alt="Dodgers AB" auto-rotate-delay="0" ar-scale="auto" camera-controls alt="Dancing Dodger Character" style="width: 95%; height: 650px" ><button slot="ar-button" style="background-color: white; border-radius: 8px; border: 1 px solid black; position: absolute; top: 20px; right: 20px; ">
       👋 AR Click Here
   </button>
-<button slot="hotspot-hand" data-position="-0.6744494597170114m 0.35686305428736664m -0.7741961597680144m" data-normal="0m 1m 0m"><div id="reveal">In Person VIP Tour + Special Gift!</div></button> 
-
 </model-viewer>
+            
+<section class="attribution">
+        <div>
+          <span>
+            <h1 style="text-align: center;" markdown="1">Play Song</h1>
+              <p align="center">
+              <span>
+              <audio controls autoplay loop id="sound">
+                <source src="Sound/Dodger Dance.mp3"/>
+              </audio
+            ></span> 
+             </p>
+            </span>
+         </div>
+   </section>
+   <script>
+        window.addEventListener("load", () => {
+          Sync("#model-viewer", "#sound");
+        });
+      </script>
+   
+
 <script>
 /**
 * Function that registers a click on an outbound link in Analytics.
@@ -53,5 +139,5 @@ var getOutboundLink = function(url) {
 
 ---
 
-<h3 style="text-align: center;" markdown="1"><a href="https://avertek.net/xr-now" onclick="getOutboundLink('https://avertek.net/xr-now'); return false;">Learn More About AVERtek's XR-NOW</a></h3> 
+<h3 style="text-align: center;" markdown="1"><a href="https://avertek.net/" onclick="getOutboundLink('https://avertek.net/'); return false;">Learn More About AVERtek's XR-NOW</a></h3> 
   <br><br>
