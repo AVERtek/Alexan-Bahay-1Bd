@@ -9,7 +9,7 @@ description: > # your text below (remove <br> elements if you don't need line br
   <br><br>
   <h2 style="text-align: center;" markdown="1"><b>4D/AR FLOORPLAN</b><a href="https://avertek.github.io/Alexan-Bahay-1Bd-2/" onclick="getOutboundLink('https://avertek.github.io/Alexan-Bahay-1Bd-2/'); return false;"<b> EXPERIENCE</b></h2></a> 
   <br><br>
-  <h2 style="text-align: center;" markdown="1"><b>SIGN-UP FOR PERSONAL:</b><a href="https://alexanbahay.com/special/?utm_source=AVERtek&utm_medium=AR" onclick="getOutboundLink('https://alexanbahay.com/special/?utm_source=AVERtek&utm_medium=AR'); return false;"<b> TOUR & DRAWING</b></h2></a> 
+  <h2 style="text-align: center;" markdown="1"><b>SIGN-UP FOR PERSONAL</b><a href="https://alexanbahay.com/special/?utm_source=AVERtek&utm_medium=AR" onclick="getOutboundLink('https://alexanbahay.com/special/?utm_source=AVERtek&utm_medium=AR'); return false;"<b> TOUR & DRAWING</b></h2></a> 
   <br><br>
 theme: jekyll-theme-minimal
 # Google Analytics
